@@ -49,7 +49,7 @@ const Dashboard = () => {
 
   const getCategories = async () => {
     const jwtToken = Cookies.get("jwtToken");
-    const apiUrl = "http://localhost:3000/category";
+    const apiUrl = "https://revisit-technology.onrender.com/category";
     const options = {
       method: "GET",
       headers: {
@@ -80,7 +80,7 @@ const Dashboard = () => {
 
   const handleSubmitForm = async (category) => {
     const jwtToken = Cookies.get("jwtToken");
-    const apiUrl = "http://localhost:3000/category";
+    const apiUrl = "https://revisit-technology.onrender.com/category";
     const options = {
       method: "POST",
       headers: {
