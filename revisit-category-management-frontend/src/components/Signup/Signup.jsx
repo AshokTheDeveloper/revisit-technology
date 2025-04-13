@@ -32,7 +32,7 @@ const Signup = () => {
       email,
       password,
     };
-    const apiUrl = "http://localhost:3000/category/signup";
+    const apiUrl = "https://revisit-technology.onrender.com/category/signup";
     const options = {
       method: "POST",
       headers: {
