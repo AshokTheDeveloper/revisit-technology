@@ -1,0 +1,33 @@
+POST http://localhost:3000/category/signup
+Content-Type: application/json
+
+{
+    "fullname": "John Doe",
+    "username": "johndoe",
+    "email": "johndoe@example.com",
+    "password": "124356"
+}
+
+###
+POST http://localhost:3000/category/login
+Content-Type: application/json
+
+{
+    "email": "john@gmail.com",
+    "password": "124356"
+}
+
+###
+GET http://localhost:3000/category
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2N2ZhYTYzYjNkM2VjYmU1ZThlYmY1NGUiLCJpYXQiOjE3NDQ0ODMxNTR9.gwr_PEWz8sD6AAxtWMDyxUuTtQHUz4ZWvvZatgr8iD4
+
+###
+POST http://localhost:3000/category
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2N2ZhYTYzYjNkM2VjYmU1ZThlYmY1NGUiLCJpYXQiOjE3NDQ0ODMxNTR9.gwr_PEWz8sD6AAxtWMDyxUuTtQHUz4ZWvvZatgr8iD4
+
+{
+    "name": "Summer Clothing",
+    "itemCount": 20,
+    "image": "asoiwerjasdfklasdjfkajeklasjdfkjasdf.jpg"
+}

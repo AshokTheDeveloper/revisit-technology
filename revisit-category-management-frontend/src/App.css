@@ -1,0 +1,12 @@
+:root {
+  --primary-color: rgb(49, 0, 165);
+  --secondary-color: rgb(255, 255, 255);
+  --background-color: rgb(216, 242, 255);
+  --border-color: rgba(117, 142, 255, 0.53);
+  --border-radius: 4px;
+  --text-color: #000000;
+}
+
+body {
+  font-family: "Arial";
+}
